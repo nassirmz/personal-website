@@ -1,0 +1,15 @@
+a {
+	text-decoration: none;
+}
+/*0 top/bottom margin auto left/right margin*/
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
