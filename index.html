@@ -5,64 +5,113 @@
 	<title>Nassir M Zeinu | Aspiring Developer</title>
 	<link rel="stylesheet" href="css/normalize.css" >
 	<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	
 	<link rel="stylesheet" href="css/main.css" >
-	<link rel="stylesheet" href="css/responsive.css">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header>
 	<a id="logo" href="index.html">
 		<h1>Nassir M Zeinu</h1>
-		<h2>Developer</h2>
+		<h2> Web Developer</h2>
 	</a>
 	<nav>
 		<ul>
-			<li><a href="index.html" class="selected">Portfolio</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="index.html" class="selected" >About</a></li>
+			<li><a href="#portfolio" >Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
-<div id="wrapper">
-	<section>
+<div id="about">
+	<div class="container">
+		
+				<img src='img/nassir.jpg' alt='photo of Nassir Zeinu' class="profile-photo">
+			</div>
+			<div class="col-sm-7 col-sm-offset-1">
+				<h3>About</h3>
+				<p class="lead">Hi, I'm Nassir Zeinu, a self thought web developer and small  business owner.<br>
+					 this is my developer Portfolio, where i share all of my recent works. When I'm not developing sites, I enjoy hanging out with friends, reading economy/business related books and staying outdoors<br>
+					 Competeneces:<br>
+					 Languages and Frameworks:<br>
+					 JavaScript, HTML5, CSS3, JQuery, bootstrap, Angular.js, Express.js, Ember.js, Node.js.<br>
+					 Tools & Expertise:<br>
+					 Git, Responsive Web Design.</p>
+	</div>		
+	
+</div>
+
+<a name="portfolio"></a>
+<div id="portfolio">
+	
 		<ul id='gallery'>
+		
 			<li>
 				<a href="img/quiz.png">
 					<img src='img/quiz.png' alt=''>
 					<p>Mulitple Choise Quiz</p>	
 				</a>
 			</li>
+			
 			<li>
 				<a href="img/content-slider.png">
 					<img src='img/content-slider.png' alt=''>
 					<p>Content Slider</p>	
 				</a>
 			</li>
+			
+			
 			<li>
 				<a href="img/to-do-list.png">
 					<img src='img/to-do-list.png' alt=''>
 					<p>to do list application</p>
 				</a>
 			</li>
+			
+			
 			<li>
 				<a href="img/tic-tac-toe.png">
 					<img src='img/tic-tac-toe.png' alt=''>
 					<p>A simple Tic-Tac Toe Game</p>
 				</a>
 			</li>
+			
+			
 			<li>
 				<a href="img/calculator.png">
 					<img src='img/calculator.png' alt=''>
 					<p>A simple Calculator</p>
 				</a>
 			</li>
+			
+		</ul>
+	
+</div>
+<a name="contact"></a>
+<div id="contact">
+	<section id="primary">
+		<h3>General Information</h3>
+		<p class="lead">I am currently looking for a freelance front-end developing job. I am looking to enhance my skills as front-end web developer. If you have any questions, Please don't hesitate to contact me!</p>
+	</section>
+	<section id="secondary">
+		<h3>Contact Details</h3>
+		<ul class="contact-info">
+			<li class='phone'><a href="tel:323-345-8161">323-345-8161</a></li>
+			<li class="mail"><a href="mailto:zenassir@yahoo.com">zenassir@yahoo.com</a></li>
+			<li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=nassirze">@nassirze</a></li>
 		</ul>
 	</section>
-	<footer>
-		<a href="https://twitter.com/nassirze"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-		<a href="https://facebook.com/nassir.mahamed"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+	</div>
+	<footer>		
+		<a href="https://facebook.com/nassir.mahamed" target="_blank"><img src="img/facebook.jpg" alt="Facebook Logo" class="social-icon"></a>
+		<a href="https://twitter.com/nassirze" target="_blank"><img src="img/twitter.jpg" alt="Twitter Logo" class="social-icon"></a>
+		<a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home" target="_blank"><img src="img/linkedin.png" class="social-icon"></a>
+		<a href="https://github.com/nassirmz" target="_blank" ><img src="img/github.png" class="social-icon"></a>
 		<p>&copy; 2015 Nassir M Zeinu.</p>
+
 	</footer>
+
 </div>
 </body>
 </html>
